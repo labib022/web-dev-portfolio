@@ -7,6 +7,14 @@
       "wdth" 100;
   }  
 
+  /* Header */
+
+  .header{
+    background-image: url(images/developer.png), url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+  }
+
 
 /* Nav style */
 nav{
@@ -58,6 +66,31 @@ nav li a{
 
     /* banner style */
 
+ .banner{
+        display: flex;
+        justify-content: space-between;
+        margin: 0 35px 0 200px;
+    }
+
+    .banner-content{
+        max-width: 600px;
+        
+    }
+
 .banner-greetings{
     font-size: 45px;
+    font-weight: 600;
+   }
+
+   .banner-title{
+    font-weight: bold;
+    font-size: 85px;
+   }
+
+   .banner-para{
+    font-size: 18px;
+   }
+
+   .banner-profile-pic{
+    width: 500px;
    }
