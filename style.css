@@ -94,3 +94,66 @@ nav li a{
    .banner-profile-pic{
     width: 500px;
    }
+
+   /* main section */
+
+   main{
+    max-width: 1140px;
+    margin: 0 auto;
+   }
+
+   main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+   }
+
+   .section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    
+   }
+
+   .section-description{
+    font-size: 18px;
+    color: #757575;
+   }
+
+   .secondary-bg{
+    background-color: #FFF8F3;
+   }
+
+   /* about */
+
+   .about{
+    border-radius: 10px;
+    padding: 100px 130px;
+    text-align: center;
+   }
+
+   .item-description{
+    font-weight: 600;
+   }
+
+   .about-items{
+    display: flex;
+    justify-content: space-around;
+   }
+
+   /* skills style */
+
+
+   .text-center{
+    text-align: center;
+   }
+
+   .skills-container{
+    display: flex;
+    gap: 25px;
+   }
+
+   .skill{
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 0 6px 50px 0px rgba(0, 0, 0, 0.06);
+   }
