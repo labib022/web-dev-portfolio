@@ -168,5 +168,32 @@ nav li a{
    }
 
    .resume-download-cv{
-    margin-top: 35px;
+    margin-top: 50px;
    }
+
+   /* footer srction */
+
+   footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+   }
+   .footer-column{
+    width: 50%;
+   }
+
+   input[type="text"], footer textarea{
+    height: 65px;
+    border-radius: 6px;
+    background-color: white;
+    color: #757575;
+    opacity: 100%;
+    display: block;
+    width: 100%;
+    padding: 05px 10px;
+    margin-bottom: 25px;
+    border: none;
+
+   }
+
+  
